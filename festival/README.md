@@ -18,7 +18,6 @@
 
 <img width="1536" height="1024" alt="7dd0584412e65faa6c005c469ddd6214" src="https://github.com/user-attachments/assets/f95e64f6-1ba0-420a-a6e6-77dc7ebe2e51" />
 <img width="1470" height="956" alt="スクリーンショット 2026-10-16 14 09 01" src="https://github.com/user-attachments/assets/697c636a-1ad3-4451-9e86-f50a708bb948" />
-![アプリの画面](screen1.png)
 
 ## 使った文法・技術
 
