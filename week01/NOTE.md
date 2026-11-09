@@ -4,7 +4,7 @@
 > 
 > **最終更新：** 2026-11-09
 > 
-> **AI利用レベル：** 
+> **AI利用レベル：** 2
 > 
 > **リファレンス：https://github.com/NakasenJEC/swift-grammar-code/blob/main/reference/01_basics.md
 
