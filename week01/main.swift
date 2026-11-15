@@ -127,6 +127,11 @@ for (name, score) in scoreOf {
 
 var passers: [String] = []
 // ここに書く
+for i in 0..<names.count {
+    if scores[i] >= 60 {
+        passers.append(names[i])
+    }
+}
 
 check("演習1 合格者は4名", passers.count == 4)
 check("演習1 並び順は names のまま", passers == ["電子太郎", "山田一郎", "佐藤みなみ", "グエン・アン"])
@@ -135,6 +140,11 @@ check("演習1 並び順は names のまま", passers == ["電子太郎", "山�
 
 var highScorers = 0
 // ここに書く
+for (_,score) in scoreOf {
+    if score >= 80 {
+        highScorers += 1
+    }
+}
 
 check("演習2 80点以上は2名", highScorers == 2)
 
@@ -144,6 +154,11 @@ check("演習2 80点以上は2名", highScorers == 2)
 var total = 0
 var average = 0.0
 // ここに書く
+for (_, score) in scoreOf {
+    total += score
+    average = Double(total) / Double(scoreOf.count)
+}
+average = Double(total) / Double(scoreOf.count)
 
 check("演習3 合計は360", total == 360)
 check("演習3 平均は72.0", average == 72.0)
